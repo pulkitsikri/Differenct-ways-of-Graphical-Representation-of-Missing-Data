@@ -124,7 +124,7 @@ pie(k,labels = c(paste("Missing Values",pct.missing,"%"),
                  col=c("Grey","Sky Blue"))
 ```
 
-![](na_graphs_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-4-1.png)
+![](pie.png)
 
 #### The above Pie Chart shows Percentage of given and missing values.
 
@@ -145,7 +145,7 @@ ggplot()+
         axis.title.y = element_text(size = 35))
 ```
 
-![](na_graphs_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-5-1.png)
+![](graph1.png)
 
 #### The above bar chart shows only those variables which have missing values and the total number of correspoing missing values.
 
@@ -168,7 +168,7 @@ ggplot()+
         axis.title.y = element_text(size = 35))
 ```
 
-![](na_graphs_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png)
+![](graph2.png)
 
 #### The above bar chart shows all the variables along with total number of rows and the red bar indicates the total number of missing values in each variable.
 
@@ -195,7 +195,7 @@ ggplot()+
     ## Scale for 'y' is already present. Adding another scale for 'y', which
     ## will replace the existing scale.
 
-![](na_graphs_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-7-1.png)
+![](graph3.png)
 
 #### The above bar chart shows all the variables along with total number of rows and the red bar indicates the percentange of missing values in each variable.
 
@@ -206,6 +206,6 @@ Missingness Map using Amelia package
 missmap(ds,x.cex = 1.5,y.cex = 1,col = c("white","black"))
 ```
 
-![](na_graphs_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png)
+![](graph4.png)
 
 #### missmap function plots a missingness map showing where missingness occurs in the dataset. In the above map white line indicates the index of missing value
