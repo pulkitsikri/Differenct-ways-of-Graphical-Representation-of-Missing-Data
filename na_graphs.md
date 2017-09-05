@@ -171,6 +171,7 @@ ggplot()+
 ![](graph2.png)
 
 #### The above bar chart shows all the variables along with total number of rows and the red bar indicates the total number of missing values in each variable.
+I've added one bar graph on top of the other just to show how many of each variable is 'filled' with missing values. Same is the case with next graph. If anyone knows a different way of representing the same 
 
 Displaying all the variables with percentage of missing values
 --------------------------------------------------------------
